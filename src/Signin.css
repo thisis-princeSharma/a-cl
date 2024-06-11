@@ -1,0 +1,42 @@
+.FormWrapper {
+    position: absolute;
+   padding: 20px 15px 5px 15px;
+   display: grid;
+   z-index: 999;
+   justify-content: center;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: -50px;
+    border-radius: 2px;
+}
+
+.square {
+    background: #fff;
+    position: absolute;
+    width: 20px;
+    height:  20px;
+    rotate: 45deg;
+    margin-top: -9px;
+    margin-left: 60px;
+}
+.FormWrapper p {
+    color: #000;
+    padding-top: 15px;
+    font-size: smaller;
+}
+.click {
+   color: #a07b1d;
+   font-size: smaller;
+}
+.signInBtn {
+    width: 100%;
+    height: 30px;
+    background: #EDB62C;
+    border-radius: 2px;
+    border: 1px solid #EDB62C;
+    color: #000;
+    font-size: medium;
+}
+.signInBtn:hover {
+    background: #dba215;
+}

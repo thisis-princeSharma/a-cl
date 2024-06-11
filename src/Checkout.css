@@ -1,0 +1,13 @@
+.checkout {
+	display: flex;
+	justify-content: center;
+}
+.amazon_ad {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.Checkout__title {
+	border-bottom: 1px solid lightgrey;
+	padding:10px;
+	margin-right: 10px;
+}
